@@ -1,0 +1,7 @@
+CREATE TABLE clients (
+    id TEXT PRIMARY KEY UNIQUE NOT NULL,
+    name TEXT NOT NULL,
+    email TEXT NOT NULL,
+    cpf TEXT UNIQUE NOT NULL,
+    dateBirth DATE NOT NULL
+);
